@@ -223,6 +223,7 @@ database/
 *.pdf
 
 practice/
+index.md
 # later on commit out
 .github
 
