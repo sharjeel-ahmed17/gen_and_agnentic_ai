@@ -8,7 +8,7 @@ os.makedirs(LOGS_DIR, exist_ok=True)
 
 # Base log file name
 LOG_FILE_PATH = os.path.join(LOGS_DIR, "running_logs.log")
-
+LOG_FILE_NAME="SHARJEEL_ALI_BARI"
 # Configure the daily rotating handler
 # 'when="midnight"' ensures a new file is created every day
 # 'backupCount=30' keeps logs for 30 days (change or remove as needed)
@@ -33,7 +33,7 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("MLOpsWorkflow")
+logger = logging.getLogger(LOG_FILE_NAME)
 
 def log_info(message):
     logger.info(message)
