@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# my configuration
+database/
+*.sqlite3
+*.pdf
+
+
+# later on commit out
+.github
+agentic_ai/
+gen_ai/
