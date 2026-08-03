@@ -11,6 +11,7 @@
 # check model capabilty
 # multilingual
 # document parse (pdf , image + text , text , documents  , database) 
+# dimension
 # ! LLM model setting and capability
 
 # change provider 
