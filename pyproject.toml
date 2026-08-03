@@ -19,8 +19,11 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "arxiv>=2.1.0",
     "fastembed>=0.8.0",
+    "feedparser>=6.0.14",
     "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
+    "langchain-arxiv>=0.1.0",
     "rich>=15.0.0",
 ]
