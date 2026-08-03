@@ -222,8 +222,7 @@ database/
 *.sqlite3
 *.pdf
 
-
+practice/
 # later on commit out
 .github
-agentic_ai/
-gen_ai/
+
