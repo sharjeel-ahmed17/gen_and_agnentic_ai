@@ -1,7 +1,12 @@
 from dotenv import load_dotenv
 from rich import print
 from langchain.embeddings import init_embeddings
+from langchain_community.embeddings import FastEmbedEmbeddings
 load_dotenv(override=True)
+
+fastembed = FastEmbedEmbeddings(
+    model_name='BAAI/bge-small-en-v1.5'
+)
 embeddings = init_embeddings(
     model = "",
     provider=""
