@@ -227,4 +227,12 @@ practice/
 index.md
 # later on commit out
 .github
+k8s/
 
+# for machine learning
+data/
+notebooks/
+logs/
+mlruns/
+models/
+scores.json or metrics.json
