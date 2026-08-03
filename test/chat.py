@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
-load_dotenv(override=True)
-from langchain.chat_models import init_chat_model
 from rich import print
+from langchain.chat_models import init_chat_model
+
+load_dotenv(override=True)
 
 model = init_chat_model(
     base_url="",

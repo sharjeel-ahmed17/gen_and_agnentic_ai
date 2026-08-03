@@ -1,8 +1,7 @@
 from dotenv import load_dotenv
+from rich import print
 from langchain.embeddings import init_embeddings
 load_dotenv(override=True)
-from rich import print
-
 embeddings = init_embeddings(
     model = "",
     provider=""
