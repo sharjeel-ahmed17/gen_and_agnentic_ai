@@ -1,0 +1,13 @@
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+
+data = PyPDFLoader("GRU.pdf")
+docs = data.load()
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size = 1000,
+    chunk_overlap=10
+)
+chunks = splitter.split_documents(docs)
+if __name__ == "__main__":
+    print(chunks[0].page_content)
