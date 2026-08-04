@@ -223,6 +223,7 @@ database/
 *.db
 *.pdf
 
+fastapi/
 practice/
 index.md
 # later on commit out
