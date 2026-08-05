@@ -224,6 +224,7 @@ database/
 *.pdf
 
 fastapi/
+basic_genai/
 practice/
 index.md
 # later on commit out
